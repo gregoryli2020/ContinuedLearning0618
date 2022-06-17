@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12811E34285DA94100E153F8 /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12811E33285DA94100E153F8 /* RotationGestures.swift */; };
+		12811E36285DAAD400E153F8 /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12811E35285DAAD400E153F8 /* DragGestures.swift */; };
 		12C563EC285CE49800523BBA /* ContinuedLearning0618App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C563EB285CE49800523BBA /* ContinuedLearning0618App.swift */; };
 		12C563EE285CE49800523BBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C563ED285CE49800523BBA /* ContentView.swift */; };
 		12C563F0285CE49900523BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C563EF285CE49900523BBA /* Assets.xcassets */; };
 		12C563F3285CE49900523BBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C563F2285CE49900523BBA /* Preview Assets.xcassets */; };
 		12C563FA285CE4D900523BBA /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C563F9285CE4D900523BBA /* LongPressGesture.swift */; };
+		12C563FC285CED7F00523BBA /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C563FB285CED7F00523BBA /* MagnificationGestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12811E33285DA94100E153F8 /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
+		12811E35285DAAD400E153F8 /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		12C563E8285CE49800523BBA /* ContinuedLearning0618.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinuedLearning0618.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C563EB285CE49800523BBA /* ContinuedLearning0618App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuedLearning0618App.swift; sourceTree = "<group>"; };
 		12C563ED285CE49800523BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12C563EF285CE49900523BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C563F2285CE49900523BBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12C563F9285CE4D900523BBA /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		12C563FB285CED7F00523BBA /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				12C563EB285CE49800523BBA /* ContinuedLearning0618App.swift */,
 				12C563ED285CE49800523BBA /* ContentView.swift */,
 				12C563F9285CE4D900523BBA /* LongPressGesture.swift */,
+				12C563FB285CED7F00523BBA /* MagnificationGestures.swift */,
+				12811E33285DA94100E153F8 /* RotationGestures.swift */,
+				12811E35285DAAD400E153F8 /* DragGestures.swift */,
 				12C563EF285CE49900523BBA /* Assets.xcassets */,
 				12C563F1285CE49900523BBA /* Preview Content */,
 			);
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12811E34285DA94100E153F8 /* RotationGestures.swift in Sources */,
+				12811E36285DAAD400E153F8 /* DragGestures.swift in Sources */,
 				12C563EE285CE49800523BBA /* ContentView.swift in Sources */,
+				12C563FC285CED7F00523BBA /* MagnificationGestures.swift in Sources */,
 				12C563EC285CE49800523BBA /* ContinuedLearning0618App.swift in Sources */,
 				12C563FA285CE4D900523BBA /* LongPressGesture.swift in Sources */,
 			);
